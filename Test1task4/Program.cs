@@ -1,8 +1,7 @@
-﻿
-using Test1task4.Models;
+﻿using Test1task4.Models;
 
 namespace Test1task4;
-    internal class Program
+internal class Program
 {
     static void Main(string[] args)
     {

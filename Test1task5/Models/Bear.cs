@@ -6,7 +6,7 @@ internal class Bear : Animal
     public Bear(string name, int age, string habitat)
     {
         Name = name;
-        Age = age;  
+        Age = age;
         Habitat = habitat;
     }
 

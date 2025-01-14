@@ -1,7 +1,7 @@
 ﻿namespace Test1task5.Models;
-    internal class Cat:Animal
-    {
-        public string OwnersName;
+internal class Cat : Animal
+{
+    public string OwnersName;
 
     public Cat(string name, int age, string ownersName)
     {
