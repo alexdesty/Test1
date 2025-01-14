@@ -18,19 +18,19 @@ internal class Program
                 for (var k = 0; k < mas.GetLength(2); k++)
                 {
                     Console.Write($"{mas[i, j, k]}");
-                    if (k < (mas.GetLength(2)) - 1)
+                    if (k < mas.GetLength(2) - 1)
                     {
                         Console.Write(" , ");
                     }
                 }
                 Console.Write("}");
-                if (j < (mas.GetLength(1)) - 1)
+                if (j < mas.GetLength(1) - 1)
                 {
                     Console.Write(" , ");
                 }
             }
             Console.Write("}");
-            if (i < (mas.GetLength(0)) - 1)
+            if (i < mas.GetLength(0) - 1)
             {
                 Console.Write(" , ");
             }
